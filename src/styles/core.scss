@@ -1,0 +1,42 @@
+@import 'antd/dist/antd.css';
+
+div#root {
+  height: 100%;
+}
+
+.site {
+  &-layout {
+    height: 100%;
+  }
+
+  &-content {
+    padding: 24px;
+  }
+
+  &-page {
+    height: 100%;
+    padding: 24px;
+    background: #fff;
+  }
+}
+
+.receipt {
+  &-description {
+    min-height: 100px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+  }
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
